@@ -5,10 +5,12 @@
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
+  overflow: hidden;
 }
 
 .description {
   padding: 30px;
+  background-color: #f7f9fc;
 }
 
 .avatar {
@@ -16,35 +18,42 @@
   height: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
+  border: 3px solid #0d0e0d;
+  background-color: #080808;
 }
 
 .name {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #2c2c2c;
 }
 
-.tag {
+.tag,
+.location {
+  font-size: 18px;
   color: #888;
   margin-bottom: 10px;
-}
-
-.location {
-  color: #888;
 }
 
 .stats {
   display: flex;
   justify-content: space-around;
-  background-color: #f3f6f9;
+  background-color: #eceff1;
+  border-color: #151616;
   padding: 15px 0;
 }
 
 .stats li {
   display: flex;
   flex-direction: column;
+  padding: 15px;
+  /* border-top-right: 1px solid #121213; */
+  text-align: center;
 }
-
+/* .stats li:last-child {
+  border-right: 1px solid #121213;
+} */
 .label {
   font-size: 14px;
   color: #888;
@@ -54,4 +63,5 @@
 .quantity {
   font-size: 16px;
   font-weight: bold;
+  color: #000;
 }

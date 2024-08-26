@@ -8,7 +8,7 @@ import transactions from "./transactions.json";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <Profile
         name={userData.username}
         tag={userData.tag}
