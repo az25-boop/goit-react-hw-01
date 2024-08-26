@@ -19,7 +19,7 @@
 }
 
 .transactionHistory tbody tr:nth-child(even) {
-  background-color: #0c0d0e;
+  background-color: #808e9c;
 }
 
 .transactionHistory tbody tr:hover {
